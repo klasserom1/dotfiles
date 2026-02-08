@@ -2,8 +2,10 @@ configuration {
 	display-drun: "Applications";
 	drun-display-format: "{icon} {name}";
 	font: "JetBrainsMono Nerd Font Regular 12";
-	modi: "drun,run";
+	modi: "drun";
 	show-icons: true;
-	icon-theme: "Papirus-Dark";
-    disable-history: true;
+	icon-theme: "Papirus";
+	disable-history: true;
 }
+
+@theme "~/.config/rofi/theme.rasi"

@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	spacing: 5px;
+	black: #000000;
+	gray: #383535;
+	white: #ffffff;
+	blue: #268bd2;
+}
+
+window {
+	background-color: @black;
+	border: 0px;
+	padding: 5px;
+	location: center;
+	width: 30%;
+	children: [inputbar, message, listview];
+}
+
+inputbar {
+	background-color: @gray;
+	padding: 5px 8px;
+	spacing: 0px;
+	children: [prompt, entry];
+}
+
+prompt {
+	background-color: transparent;
+	text-color: @white;
+	padding: 0px 5px 0px 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+entry {
+	background-color: transparent;
+	text-color: @white;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+listview {
+	background-color: @black;
+	border: 0px;
+	padding: 0px;
+	scrollbar: false;
+	lines: 7;
+	children: [element];
+}
+
+element {
+	background-color: @black;
+	text-color: @white;
+	padding: 5px 8px;
+}
+
+element selected {
+	background-color: @blue;
+	text-color: @white;
+}
+
+element-text {
+	background-color: transparent;
+	text-color: inherit;
+}
+
+element-text selected {
+	background-color: @blue;
+	text-color: @white;
+}
+
+element-icon {
+	background-color: transparent;
+	size: 1.0em;
+	padding: 5px 5px;
+}
+
+element-icon selected {
+	background-color: @blue;
+	text-color: @white;
+}
+
+scrollbar {
+	width: 0px;
+	handle-width: 0px;
+	padding: 0px;
+	background-color: transparent;
+}
+
+message {
+	margin: 0;
+	expand: true;
+	background-color: @black;
+	children: [textbox];
+}
+
+textbox {
+	expand: true;
+	padding: 5px 8px;
+	background-color: @black;
+	text-color: @white;
+}
+
+error-message {
+	expand: true;
+	text-color: @white;
+}
