@@ -4,7 +4,7 @@ This repository contains dotfiles for my system. Git and GNU Stow are used to ma
 
 ## Requirements
 
-Make sure that git and stow are installed on your system.
+Make sure that Git, Stow and a [Nerd Font](https://www.nerdfonts.com/) are installed
 
 ### Git
 
@@ -39,7 +39,7 @@ pacman -S stow
 dnf install stow
 ```
 
-## Installing the dotfiles to your system
+## Installing the dotfiles
 
 Clone the repository to your home directory
 ```
@@ -52,8 +52,8 @@ After that, cd into the dotfiles directory (Assuming you're in home)
 cd dotfiles
 ```
 
-Finally, use stow to create symlinks:
+Finally, use stow to create symlinks
 
 ```
-stow .
+stow bashrc fastfetch kitty MangoHud rofi starship
 ```
