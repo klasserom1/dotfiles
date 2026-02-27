@@ -5,12 +5,14 @@
 	black: #000000;
 	gray: #383535;
 	white: #ffffff;
-	blue: #268bd2;
+	steel: #7c7f85;
 }
 
 window {
 	background-color: @black;
-	border: 0px;
+	border: 2px;
+	border-color: @steel;
+	border-radius: 8px;
 	padding: 5px;
 	location: center;
 	width: 30%;
@@ -19,6 +21,7 @@ window {
 
 inputbar {
 	background-color: @gray;
+	border-radius: 8px;
 	padding: 5px 8px;
 	spacing: 0px;
 	children: [prompt, entry];
@@ -56,7 +59,7 @@ element {
 }
 
 element selected {
-	background-color: @blue;
+	background-color: @steel;
 	text-color: @white;
 }
 
@@ -66,7 +69,7 @@ element-text {
 }
 
 element-text selected {
-	background-color: @blue;
+	background-color: @steel;
 	text-color: @white;
 }
 
@@ -77,7 +80,7 @@ element-icon {
 }
 
 element-icon selected {
-	background-color: @blue;
+	background-color: @steel;
 	text-color: @white;
 }
 
