@@ -55,5 +55,5 @@ cd dotfiles
 Finally, use stow to create symlinks
 
 ```
-stow bashrc fastfetch kitty MangoHud rofi starship
+stow .
 ```
