@@ -9,7 +9,7 @@
         },
         {
             "type": "os",
-            "key": " ├  OS",
+            "key": " ├  OS",
         },
         {
             "type": "kernel",
@@ -73,13 +73,13 @@
         },
         {
             "type": "disk",
-            "key": " ├ 󰋊 root",
-            "folders": "/"
+            "key": " ├ 󰋊 home",
+            "folders": "/home"
         },
         {
             "type": "disk",
-            "key": " └ 󰋊 home",
-            "folders": "/home"
+            "key": " └ 󰋊 root",
+            "folders": "/"
         }
     ]
 }
