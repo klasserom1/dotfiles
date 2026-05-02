@@ -1,7 +1,7 @@
 configuration {
 	drun-display-format: "{icon} {name}";
 	font: "JetBrainsMono Nerd Font Regular 12";
-	modi: "drun,run,window";
+	modi: "drun,window";
 	show-icons: true;
 	icon-theme: "Papirus";
 	disable-history: true;
