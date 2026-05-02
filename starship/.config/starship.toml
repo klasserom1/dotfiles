@@ -2,7 +2,7 @@
 # format = "$directory$character"
 
 [username]
-style_user = "bold green"
+style_user = "bold yellow"
 style_root = "bold red"
 format = "[$user]($style)"
 disabled = false
