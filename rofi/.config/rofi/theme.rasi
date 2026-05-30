@@ -12,15 +12,16 @@ window {
 	background-color: @black;
 	border: 2px;
 	border-color: @steel;
-	border-radius: 8px;
+	border-radius: 2px;
 	padding: 5px;
 	location: center;
-	width: 30%;
+	width: 35%;
 	children: [inputbar, message, listview];
 }
 
 inputbar {
 	background-color: @gray;
+	border-radius: 2px;
 	padding: 5px 8px;
 	spacing: 0px;
 	children: [prompt, entry];
@@ -47,7 +48,7 @@ listview {
 	border: 0px;
 	padding: 0px;
 	scrollbar: false;
-	lines: 7;
+	lines: 8;
 	children: [element];
 }
 

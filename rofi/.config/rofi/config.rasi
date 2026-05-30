@@ -2,8 +2,6 @@ configuration {
 	drun-display-format: "{icon} {name}";
 	font: "Fira Code Regular 12";
 	modi: "drun,window";
-	show-icons: true;
-	icon-theme: "Papirus";
 	disable-history: true;
 }
 
