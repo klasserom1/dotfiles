@@ -10,6 +10,9 @@ URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.scrollBar_right: true
 URxvt.scrollBar: false
 
+! Geometry
+URxvt.geometry: 100x35
+
 ! Theme https://github.com/morhetz/gruvbox
 *background: #282828
 *foreground: #ebdbb2
