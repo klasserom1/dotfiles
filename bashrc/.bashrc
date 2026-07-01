@@ -16,15 +16,15 @@ alias reload='source ~/.bashrc'
 # History
 HISTCONTROL=ignoreboth
 shopt -s histappend
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=-1
+HISTFILESIZE=-1
 
 shopt -s checkwinsize
 
 # Prompt, overwritten by starship
 PS1='\n\w\n\$ '
 
-# enable programmable completion features
+# Enable programmable completion features
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
@@ -33,8 +33,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# starship prompt
+# Starship prompt
 eval "$(starship init bash)"
 
-# run fastfetch
+# Run fastfetch
 fastfetch
