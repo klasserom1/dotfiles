@@ -1,5 +1,5 @@
 ! Font
-URxvt.font: xft:Fira Code:size=11
+URxvt.font: xft:IosevkaTerm Nerd Font Mono:size=11
 
 ! URxvt Functions
 URxvt.iso14755: false

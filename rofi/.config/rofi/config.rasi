@@ -1,6 +1,6 @@
 configuration {
 	drun-display-format: "{icon} {name}";
-	font: "Fira Code Regular 12";
+	font: "IosevkaTerm Nerd Font Mono 11";
 	modi: "drun,window";
 	disable-history: true;
 }
