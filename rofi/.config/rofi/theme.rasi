@@ -2,16 +2,17 @@
 	margin: 0;
 	padding: 0;
 	spacing: 5px;
-	black: #000000;
-	gray: #383535;
 	white: #ffffff;
-	steel: #7c7f85;
+	clear: rgba(0, 0, 0, 0%);
+	transparency50: rgba(0, 0, 0, 0.5);
+	transparency70: rgba(0, 0, 0, 0.3);
+	transparency90: rgba(0, 0, 0, 0.1);
 }
 
 window {
-	background-color: @black;
+	background-color: @transparency50;
 	border: 2px;
-	border-color: @steel;
+	border-color: @transparency50;
 	border-radius: 2px;
 	padding: 5px;
 	location: center;
@@ -20,7 +21,7 @@ window {
 }
 
 inputbar {
-	background-color: @gray;
+	background-color: @transparency70;
 	border-radius: 2px;
 	padding: 5px 8px;
 	spacing: 0px;
@@ -28,7 +29,7 @@ inputbar {
 }
 
 prompt {
-	background-color: transparent;
+	background-color: @clear;
 	text-color: @white;
 	padding: 0px 5px 0px 0px;
 	margin: 0px;
@@ -36,7 +37,7 @@ prompt {
 }
 
 entry {
-	background-color: transparent;
+	background-color: @clear;
 	text-color: @white;
 	padding: 0px;
 	margin: 0px;
@@ -44,7 +45,7 @@ entry {
 }
 
 listview {
-	background-color: @black;
+	background-color: @clear;
 	border: 0px;
 	padding: 0px;
 	scrollbar: false;
@@ -53,35 +54,35 @@ listview {
 }
 
 element {
-	background-color: @black;
+	background-color: @clear;
 	text-color: @white;
 	padding: 5px 8px;
 }
 
 element selected {
-	background-color: @steel;
+	background-color: @transparency70;
 	text-color: @white;
 	border-radius: 8px;
 }
 
 element-text {
-	background-color: transparent;
+	background-color: @clear;
 	text-color: inherit;
 }
 
 element-text selected {
-	background-color: @steel;
+	background-color: @clear;
 	text-color: @white;
 }
 
 element-icon {
-	background-color: transparent;
+	background-color: @clear;
 	size: 1.0em;
 	padding: 5px 5px;
 }
 
 element-icon selected {
-	background-color: @steel;
+	background-color: @clear;
 	text-color: @white;
 }
 
@@ -95,14 +96,14 @@ scrollbar {
 message {
 	margin: 0;
 	expand: true;
-	background-color: @black;
+	background-color: @transparency50;
 	children: [textbox];
 }
 
 textbox {
 	expand: true;
 	padding: 5px 8px;
-	background-color: @black;
+	background-color: @transparency50;
 	text-color: @white;
 }
 
